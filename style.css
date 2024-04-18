@@ -1,9 +1,0 @@
-@font-face {
-  font-family: "Overused Grotesk Roman";
-  src: url("RandomMaerks/RandomMaerks.github.io/fonts/OverusedGroteskRoman-VF.woff2") format('woff2');
-  font-weight: 300 900;
-}
-
-.stylistic{
-	font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1, "ss03" 1;
-}
