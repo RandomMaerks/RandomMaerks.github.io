@@ -2,8 +2,3 @@
     font-family: "Overused Grotesk Regular";
     src: url('fonts/OverusedGrotesk-Roman.woff2') format ('woff2');
 }
-
-@font-face {
-    font-family: "Overused Grotesk Bold";
-    src: url('fonts/OverusedGrotesk-Bold.woff2') format ('woff2');
-}
