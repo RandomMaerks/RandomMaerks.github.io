@@ -144,7 +144,7 @@ h1{
 	color: #000000;
 	line-height: 1;
 	margin-left: 0%;
-	margin-right: 20%;
+	margin-right: 0%;
 	padding: 50px 10% 0px 10%;
 }
 
@@ -166,7 +166,7 @@ p{
 	padding: 5px 10% 0px 10%;
 	font-feature-settings: "ss02" 1, "ss03" 1, "ss11" 1, "ss09" 1, "ss06" 1;
 	margin-left: 0%;
-	margin-right: 10%;
+	margin-right: 5%;
 	color: #000000;
 }
 
