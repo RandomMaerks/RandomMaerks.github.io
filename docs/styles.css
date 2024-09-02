@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Overused Grotesk';
-	src: url('fonts/OverusedGroteskRoman-VF.woff2') format('woff2');
+	src: url('../source/fonts/OverusedGroteskRoman-VF.woff2') format('woff2');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal;
 	font-weight: 300 900;
@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: 'Cygre Neuer';
-	src: url('fonts/CygreNeuer-VF.woff2') format('woff2');
+	src: url('../source/fonts/CygreNeuer-VF.woff2') format('woff2');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal;
 	font-weight: 300 900;
@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'Random Grotesque Spacious Black';
-	src: url('fonts/RG-SpaciousBlackIt.woff2') format('woff2');
+	src: url('../source/fonts/RG-SpaciousBlackIt.woff2') format('woff2');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal;
 	font-weight: 400;
@@ -24,7 +24,7 @@
 
 @font-face {
 	font-family: 'Outreque Bold';
-	src: url('fonts/OutrequeBold.woff2') format('woff2');
+	src: url('../source/fonts/OutrequeBold.woff2') format('woff2');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal;
 	font-weight: 400;
@@ -32,7 +32,7 @@
 
 @font-face {
 	font-family: 'Ultramono Wide Bold';
-	src: url('fonts/UltramonoWide-Bold.woff2') format('woff2');
+	src: url('../source/fonts/UltramonoWide-Bold.woff2') format('woff2');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal;
     font-weight: 400;
@@ -40,7 +40,7 @@
 
 @font-face {
 	font-family: 'Blobability';
-	src: url('fonts/Blobability.woff2') format('woff2');
+	src: url('../source/fonts/Blobability.woff2') format('woff2');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal;
     font-weight: 400;
@@ -203,7 +203,7 @@ p{
 footer{
 	position: bottom;
 	font-weight: 400;
-    font-size: 22px;
+    font-size: 15px;
 	letter-spacing: 0.4px;
 	font-feature-settings: "ss02" 1, "ss03" 1, "ss11" 1, "ss09" 1, "ss06" 1;
     color: white;
