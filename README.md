@@ -1,0 +1,1 @@
+The scripts look like a mess because I'M NOT A WEB PROGRAMMER !!!
