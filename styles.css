@@ -1,13 +1,13 @@
 @font-face {
 	font-family: 'Overused Grotesk';
-	src: url('source/fonts/OverusedGroteskRoman-VF.woff2') format('woff2');
+	src: url('source/fonts/OverusedGroteskRoman-VF.woff2') format('woff2-variations');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal; font-weight: 300 900;
 }
 
 @font-face {
 	font-family: 'Cygre Neuer';
-	src: url('source/fonts/CygreNeuer-VF.woff2') format('woff2');
+	src: url('source/fonts/CygreNeuer-VF.woff2') format('woff2-variations');
 	font-feature-settings: "liga" 1, "kern" 1;
 	font-style: normal; font-weight: 300 900;
 }
@@ -93,14 +93,13 @@ a{color: inherit; text-decoration: none;}
 	padding: 15px 30px; margin: 0px 10% 40px 10%;
 	text-align: center;
 	display: inline-block;
-	cursor: pointer;
+	cursor: default;
 	user-select: none;
 }
 
-hr{
-	color: #1a1a1a;
-	margin: 0% 10% 0% 10%;
-}
+hr{color: #1a1a1a; margin: 0% 10% 0% 10%;}
+
+.grey{color: #e4e4e4}
 
 header{
     font-size: 65px; line-height: 1.0; letter-spacing: -0.7px;
