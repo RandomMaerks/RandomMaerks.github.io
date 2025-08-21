@@ -1,7 +1,14 @@
 @font-face {
 	font-family: 'Overused Grotesk';
-	src: url('https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGroteskRoman-VF.ttf');
+	src: url('https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGrotesk-VF.ttf');
 	font-feature-settings: "liga" 1, "kern" 1;
+	font-style: normal; font-weight: 300 900;
+}
+
+@font-face {
+	font-family: 'Phlatt Grotesk';
+	src: url('https://raw.githubusercontent.com/RandomMaerks/Phlatt-Grotesk/master/fonts/PhlattGrotesk-Regular.woff2') format('woff2');
+	font-feature-settings: "liga" 1, "kern" 1, "ss07" 1;
 	font-style: normal; font-weight: 300 900;
 }
 
@@ -36,6 +43,7 @@ header{
 	font-size: min(25px, 5vw);
 	line-height: 120%;
 	font-feature-settings: "ss03" 1;
+	user-select: none;
 }
 
 .right{
@@ -43,9 +51,7 @@ header{
 	text-align: right;
 }
 
-a.active{
-	font-weight: 700;
-}
+a.active{font-weight: 700;}
 
 .button{
 	font-weight: 700;
@@ -79,7 +85,7 @@ a.button:hover{
 	user-select: none;
 }
 
-hr{color: #1a1a1a; margin: 0% 20px 0% 20px;}
+hr{color: #1a1a1a1a; margin: 3% 10% 0% 10%;}
 
 .grey{color: #e4e4e4; margin-top: 170px;}
 
@@ -90,14 +96,24 @@ h1{
     font-size: min(50px, 9vw); line-height: 1;
 	font-feature-settings: "ss02" 1, "ss03" 1, "ss11" 1, "ss09" 1, "ss06" 1;
 	color: #000000;
-	margin-bottom: -20px; padding: 0px 10% 0px 10%;
+	padding: 0px 10% 0px 10%;
 }
 
 h2{
-    font-size: min(100px, 9vw); line-height: 0.9;
+    font-weight: 700;
+    font-size: min(50px, 7vw); line-height: 1;
+	font-feature-settings: "ss02" 1, "ss03" 1, "ss11" 1, "ss09" 1, "ss06" 1;
 	color: #000000;
-	margin-top: 40px; margin-bottom: 40px; padding: 0px 10% 0px 10%;
-	text-align: left;
+	padding: 0px 10% 0px 10%;
+	text-align: center;
+}
+
+h3{
+    font-weight: 700;
+    font-size: min(40px, 6vw); line-height: 1;
+	font-feature-settings: "ss02" 1, "ss03" 1, "ss11" 1, "ss09" 1, "ss06" 1;
+	color: #000000;
+	padding: 0px 10% 0px 10%;
 }
 
 p{
@@ -114,41 +130,46 @@ p.divide{
 	font-weight: 700;
 }
 
-header.rg{
-	background-color: #ffffff;
-}
+header.rg{background-color: #ffffff;}
+header.rg .dropdown-content a {background-color: #ffffff;}
+header.rg .dropdown-content a:hover {background-color: #f6f6f6;}
 
-header.og{
-	background-color: #1e1e1c;
-	color: #adad9c;
-}
+header.og{background-color: #1e1e1c; color: #adad9c;}
+header.og .dropdown-content a {background-color: #adad9c; color: #1e1e1c;}
+header.og .dropdown-content a:hover {background-color: #8b8b7a;}
 
-header.outreque{
-	background-color: #56433A;
-	color: #D8A893;
-	text-shadow: 2px 2px 20px #000000;
-}
+header.outreque{background-color: #56433A; color: #D8A893; text-shadow: 2px 2px 20px #000000;}
+header.outreque .dropdown-content a {background-color: #D8A893; color: #56433A; text-shadow: 0px 0px 0px #00000000;}
+header.outreque .dropdown-content a:hover {background-color: #b68671;}
 
-header.ultramono{
-	background-color: #587777;
-	color: #BFFFFD;
-}
+header.ultramono{background-color: #587777;	color: #BFFFFD;}
+header.ultramono .dropdown-content a {background-color: #BFFFFD; color: #587777;}
+header.ultramono .dropdown-content a:hover {background-color: #9DDDDB;}
 
-.OG{	font-family: 'Overused Grotesk', sans-serif; font-weight: 800;}
+header.phlatt{background-color: #1e1e28; color: #ffffff}
+header.phlatt .dropdown-content a {background-color: #ffffff;}
+header.phlatt .dropdown-content a:hover {background-color: #a2a2ff;}
+
+.OG{	font-family: 'Overused Grotesk', sans-serif; font-weight: 700;}
 .BLOB{	font-family: 'Blobability', sans-serif; 	 font-weight: 400;}
+.PHLATT{font-family: 'Phlatt Grotesk', monospaced; 	 font-weight: 400;}
 
-footer{
-	bottom: 0; left: 0; right: 0;
-	font-weight: 700;
-    font-size: max(300px, 30vw); letter-spacing: -3%; line-height: 0.9;
-	font-feature-settings: "ss03" 1;
+footer{bottom: 0; left: 0; right: 0; position: relative;}
+
+footer p{
+	font-weight: 400;
+	font-style: normal;
+    font-size: min(25px, 4vw); line-height: 1.3; letter-spacing: 0.5px;
+	color: #ffffff; background-color: #1a1a1a;
+	padding: 40px 10% 80px 10%; margin: 0px 0px;
+	font-feature-settings: "ss02" 1, "ss03" 1, "ss11" 1, "ss09" 1, "ss06" 1;
+}
+
+footer div.logo{
+    font-size: min(100px, 10vw); letter-spacing: 0%; line-height: 1;
     background-color: #e6e6e6; color: #000000;
-	background-image: linear-gradient(transparent, #1a1a1a);
-	overflow-x: scroll;
-	overflow-y: hidden;
-	scrollbar-color: #000000 #1f1f1f;
-	scrollbar-width: thin;
 	user-select: none;
+	margin-top: 200px; padding-left: 10%;
 }
 
 .highlight{
@@ -159,8 +180,15 @@ footer{
 }
 
 .highlight:hover{
-	background: #1a1a1a;
+	background-color: #1a1a1a;
 	color: #ffffff;
+}
+
+.highlight2{
+	border-radius: 25px;
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding: 0 3px;
 }
 
 .langList{
@@ -169,3 +197,75 @@ footer{
 	scrollbar-width: thin;
 	scrollbar-color: #1a1a1a #e6e6e6;
 }
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	min-width: 365px;
+	margin-top: -2px;
+}
+
+.dropdown-content a {
+	color: #000000;
+	padding: 3px 16px;
+	text-decoration: none;
+	display: block;
+	background-color: #f1f1f1;
+	border-radius: 20px;
+	margin-bottom: 3px;
+	box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.1);
+	font-size: min(22px, 5vw);
+	font-weight: 400;
+	animation-name: reverse-bold-on-hover; animation-duration: 0.1s;
+}
+
+.dropdown-content a:hover {font-weight: 700; background-color: #e6e6e6; animation-name: bold-on-hover; animation-duration: 0.1s;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.bold-on-hover {font-weight: 400; animation-name: reverse-bold-on-hover; animation-duration: 0.1s;}
+
+.bold-on-hover:hover {font-weight: 700; animation-name: bold-on-hover; animation-duration: 0.1s;}
+
+.black-on-hover {font-weight: 700; animation-name: reverse-black-on-hover; animation-duration: 0.1s;}
+
+.black-on-hover:hover {font-weight: 900; animation-name: black-on-hover; animation-duration: 0.1s;}
+
+.variable {
+	animation-name: variable; 
+	animation-duration: 1.5s; 
+	animation-iteration-count: infinite; 
+	animation-direction: alternate; 
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes bold-on-hover {from {font-weight: 400;} to {font-weight: 700;}}
+@keyframes reverse-bold-on-hover {from {font-weight: 700;} to {font-weight: 400;}}
+
+@keyframes black-on-hover {from {font-weight: 700;}	to {font-weight: 900;}}
+@keyframes reverse-black-on-hover {from {font-weight: 900;}	to {font-weight: 700;}}
+
+@keyframes variable {from {font-weight: 300;} to {font-weight: 900;}}
+
+.bigtext {
+	font-weight: 700;
+    font-size: min(70px, 8vw); line-height: 1;
+	font-feature-settings: "ss03" 1, "ss09" 1, "ss06" 1;
+	color: #000000;
+	padding: 0px 15%; margin: 100px 0;
+	text-align: center;
+	cursor: default; user-select: none;
+}
+
+.dropdown-subtitle {font-weight: 400; opacity: 0.3;	float: right;  font-feature-settings: "frac" 1, "tnum" 1;}
+
+p.subtitle {opacity: 50%; font-feature-settings: "frac" 1, "tnum" 1;}
+p.subtitle-right {float: right; text-align: right; max-width: 30%; margin-left: -10%;}
+
+p.subtitle ~ a:hover img {filter: drop-shadow(2px 2px 7px rgba(0,0,0,0.3));}
