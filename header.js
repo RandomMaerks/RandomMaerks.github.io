@@ -18,23 +18,44 @@ headerTemplate.innerHTML = `
             <div class="dropdown">
                 <div class="black-on-hover">→ Retail</div>
                 <div class="dropdown-content">
-                    <a href="/typefaces/random-grotesque"><span class="dropdown-subtitle">v2.0</span>Random Grotesque</a>
-                    <a href="/typefaces/ultramono"><span class="dropdown-subtitle">v2.0</span>Ultramono</a>
-                    <a href="/typefaces/outreque"><span class="dropdown-subtitle">v1.0</span>Outreque</a>
+                    <a href="/typefaces/random-grotesque">
+                        <span class="dropdown-subtitle">v2.1</span>
+                        Random Grotesque
+                    </a>
+                    <a href="/typefaces/ultramono">
+                        <span class="dropdown-subtitle">v2.0</span>
+                        Ultramono
+                    </a>
+                    <a href="/typefaces/outreque">
+                        <span class="dropdown-subtitle">v1.1</span>
+                        Outreque
+                    </a>
                 </div>
             </div><br>
             <div class="dropdown">
                 <div class="black-on-hover">→ Free/FOSS</div>
                 <div class="dropdown-content">
-                    <a href="/typefaces/hebdomadal"><span class="dropdown-subtitle">v1.0</span>Hebdomadal</a>
-                    <a href="/typefaces/overused-grotesk"><span class="dropdown-subtitle">v0.5-alpha-1</span>Overused Grotesk</a>
-                    <a href="/typefaces/phlatt"><span class="dropdown-subtitle">v1.0</span>Phlatt Grotesk</a>
+                    <a href="/typefaces/hebdomadal">
+                        <span class="dropdown-subtitle">v1.0</span>
+                        Hebdomadal
+                    </a>
+                    <a href="/typefaces/overused-grotesk">
+                        <span class="dropdown-subtitle">v0.5-alpha-2</span>
+                        Overused Grotesk
+                    </a>
+                    <a href="/typefaces/phlatt">
+                        <span class="dropdown-subtitle">v1.0</span>
+                        Phlatt Grotesk
+                    </a>
                 </div>
             </div><br>
             <div class="dropdown">
                 <div class="black-on-hover">→ Other</div>
                 <div class="dropdown-content">
-                    <a href="https://github.com/RandomMaerks/Random-Typeface-Assortment" target="blank_" rel="noopener"><span class="dropdown-subtitle BLOB">\</span>Random Typeface Assortment</a>
+                    <a href="https://github.com/RandomMaerks/Random-Typeface-Assortment" target="blank_" rel="noopener">
+                        <span class="dropdown-subtitle BLOB">\\</span>
+                        Random Typeface Assortment
+                    </a>
                 </div>
             </div>				
         </div>
