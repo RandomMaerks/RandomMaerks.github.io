@@ -5,12 +5,12 @@
 		<link href="/styles.css" rel="stylesheet">
 		<link rel="icon" type="image/x-icon" href="source/images/favicon.ico">
 		<title>Hebdomadal</title>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script src="/header.js" type="text/javascript" defer></script>
+		<script src="/footer.js" type="text/javascript" defer></script>
 	</head>
 	
 	<body>
-		<div id="header"></div>
-		<script type="text/javascript">$('#header').load('/header.html');</script>
+		<rdmk-header></rdmk-header>
 	
 		<div style="font-size:0;background-color:#e6e6e6" align=center>
 			<img src="/source/images/hebd-be-a1.png" width=80%>
@@ -66,18 +66,6 @@
 			<a href="https://www.behance.net/gallery/215827069/Hebdomadal-Typeface" target="_blank" rel="noopener" class="button">View project on Behance</a>
 		</p>
 		
-		<footer>
-			<div class="BLOB logo">&#37;&#32;</div>
-			<p>
-				Website is set in <a class="bold-on-hover" href="overused-grotesk"><u>Overused Grotesk</u></a><br>
-				Email: <b>rmforbusiness@gmail.com</b><br>
-				Socials:
-				<a class="BLOB" href="https://github.com/RandomMaerks" target="_blank" rel="noopener">0</a>
-				<a class="BLOB" href="https://randommaerks.gumroad.com/" target="_blank" rel="noopener">1</a>
-				<a class="BLOB" href="https://www.instagram.com/randommaerks/" target="_blank" rel="noopener">3</a>
-				<a class="BLOB" href="https://www.youtube.com/@randommaerks" target="_blank" rel="noopener">2</a>
-				<a class="BLOB" href="https://www.behance.net/randommaerks" target="_blank" rel="noopener">4</a><br>
-			</p>
-		</footer>		
+		<rdmk-footer></rdmk-footer>	
 	</body>
 </html>
